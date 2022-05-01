@@ -51,7 +51,7 @@ export class Html5QrcodeStrings {
 export class Html5QrcodeScannerStrings {
 
     public static scanningStatus(): string {
-        return "Scanning";
+        return "Scan en cours";
     }
 
     public static idleStatus(): string {
@@ -67,7 +67,7 @@ export class Html5QrcodeScannerStrings {
     }
 
     public static noCameraFoundErrorStatus(): string {
-        return "No Cameras";
+        return "Pas de caméra";
     }
 
     public static lastMatch(decodedText: string): string {
@@ -79,11 +79,11 @@ export class Html5QrcodeScannerStrings {
     }
 
     public static cameraPermissionTitle(): string {
-        return "Request Camera Permissions";
+        return "Demander autorisation caméra";
     }
 
     public static cameraPermissionRequesting(): string {
-        return "Requesting camera permissions...";
+        return "Nous demandons l'autorisation...";
     }
 
     public static noCameraFound(): string {
