@@ -87,19 +87,19 @@ export class Html5QrcodeScannerStrings {
     }
 
     public static noCameraFound(): string {
-        return "No camera found";
+        return "Pas de caméra trouvée";
     }
 
     public static scanButtonStopScanningText(): string {
-        return "Stop Scanning";
+        return "Arreter le scan";
     }
 
     public static scanButtonStartScanningText(): string {
-        return "Start Scanning";
+        return "Démarrer le scan";
     }
 
     public static scanButtonScanningStarting(): string {
-        return "Launching Camera...";
+        return "Lancement de la caméra...";
     }
 
     /**
@@ -108,7 +108,7 @@ export class Html5QrcodeScannerStrings {
      * This will be used to switch to file based scanning.
      */
     public static textIfCameraScanSelected(): string {
-        return "Scan an Image File";
+        return "Scanner une image";
     }
 
     /**
@@ -117,11 +117,11 @@ export class Html5QrcodeScannerStrings {
      * This will be used to switch to camera based scanning.
      */
     public static textIfFileScanSelected(): string {
-        return "Scan using camera directly";
+        return "Scanner en utilisant directement la camera";
     }
 
     public static selectCamera(): string {
-        return "Select Camera";
+        return "Choisir Camera";
     }
 }
 
